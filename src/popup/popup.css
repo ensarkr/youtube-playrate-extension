@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+html {
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+#popup {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+  align-items: flex-start;
+  color: white;
+}
+
+#saveDiv {
+  width: 100%;
+  text-align: end;
+}
+
+#checkboxDiv {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.title {
+  margin-top: 0;
+}
+
+.customInput {
+  color: white;
+  border: 1px gray solid;
+  border-radius: 5px;
+  outline: none;
+  background-color: black;
+  font-family: "Roboto", sans-serif;
+}
+
+.customInput:focus {
+  outline: none;
+}
+
+.customCheckbox {
+  margin: 0 3px 0 0;
+}
+
+.customButton {
+  border: 1px solid gray;
+  padding: 0.2em 0.4em;
+  margin-top: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: inherit;
+  font-size: 100%;
+  color: white;
+  background: none;
+}

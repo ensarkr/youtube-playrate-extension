@@ -1,0 +1,35 @@
+#youtubePlayrateExtension-rateButtonIncrease,
+#youtubePlayrateExtension-rateButtonReset,
+#youtubePlayrateExtension-rateButtonDecrease {
+  padding-left: 3px;
+  padding-right: 3px;
+  width: 24px;
+  box-sizing: border-box;
+  height: 100%;
+  position: relative;
+  top: 0;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  vertical-align: top;
+}
+
+#youtubePlayrateExtension-rateButtonIncrease {
+  padding-left: 3px;
+  padding-right: 10px;
+  width: 31px;
+}
+#youtubePlayrateExtension-rateButtonReset {
+  width: 55px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media screen and (max-width: 720px) {
+  #youtubePlayrateExtension-rateButtonIncrease,
+  #youtubePlayrateExtension-rateButtonReset,
+  #youtubePlayrateExtension-rateButtonDecrease {
+    /* * below 720px buttons starts to cover time of the video */
+    display: none;
+  }
+}
